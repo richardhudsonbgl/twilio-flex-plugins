@@ -1,0 +1,13 @@
+[
+  {
+    "name": "plugin-recording-pause-and-resume",
+    "version": "0.0.0",
+    "class": "RecordingPauseAndResumePlugin",
+    "requires": [
+      {
+        "@twilio/flex-ui": "^1"
+      }
+    ],
+    "src": "http://localhost:3000/plugin-recording-pause-and-resume.js"
+  }
+]

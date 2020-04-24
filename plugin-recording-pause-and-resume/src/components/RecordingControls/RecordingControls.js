@@ -1,6 +1,5 @@
 import React from 'react';
 
-//components
 import RecordingControlsComponent from './RecordingControls.Component';
   
 export class RecordingControls{
@@ -12,7 +11,6 @@ export class RecordingControls{
          {
             if: props => props.task.source.taskChannelUniqueName === "voice" 
             && props.task.status === "accepted"
-            && props.conference.source.status==="started"
          });
   }
 }
